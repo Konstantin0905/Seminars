@@ -1,9 +1,9 @@
 ﻿Console.Clear();
 
-Console.WriteLine("Введите число: ");
+Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 if (n % 2 == 0)
-    Console.WriteLine("Ваше число четное!");
+    Console.WriteLine($"Ваше число {n} - чётное!");
 else
-    Console.WriteLine("Ваше число нечетное! ");
+    Console.WriteLine($"Ваше число {n} - нечётное! ");
